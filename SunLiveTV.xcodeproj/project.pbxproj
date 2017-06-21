@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B9D36011EFA0A7300783AD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D36001EFA0A7300783AD3 /* AppDelegate.swift */; };
+		9B9D36031EFA0A7300783AD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D36021EFA0A7300783AD3 /* ViewController.swift */; };
+		9B9D36061EFA0A7300783AD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9D36041EFA0A7300783AD3 /* Main.storyboard */; };
+		9B9D36081EFA0A7300783AD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B9D36071EFA0A7300783AD3 /* Assets.xcassets */; };
+		9B9D360B1EFA0A7300783AD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9D36091EFA0A7300783AD3 /* LaunchScreen.storyboard */; };
+		9B9D36161EFA0A7300783AD3 /* SunLiveTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D36151EFA0A7300783AD3 /* SunLiveTVTests.swift */; };
+		9B9D36211EFA0A7300783AD3 /* SunLiveTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D36201EFA0A7300783AD3 /* SunLiveTVUITests.swift */; };
+		9B9D36361EFA519500783AD3 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D36351EFA519500783AD3 /* TabbarViewController.swift */; };
+		9B9D36381EFA562700783AD3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D36371EFA562700783AD3 /* HomeViewController.swift */; };
+		9B9D363A1EFA567900783AD3 /* StarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D36391EFA567900783AD3 /* StarViewController.swift */; };
+		9B9D363C1EFA568C00783AD3 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D363B1EFA568C00783AD3 /* DiscoverViewController.swift */; };
+		9B9D363E1EFA569D00783AD3 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D363D1EFA569D00783AD3 /* MineViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B9D36121EFA0A7300783AD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B9D35F51EFA0A7300783AD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B9D35FC1EFA0A7300783AD3;
+			remoteInfo = SunLiveTV;
+		};
+		9B9D361D1EFA0A7300783AD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B9D35F51EFA0A7300783AD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B9D35FC1EFA0A7300783AD3;
+			remoteInfo = SunLiveTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B9D35FD1EFA0A7300783AD3 /* SunLiveTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunLiveTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B9D36001EFA0A7300783AD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B9D36021EFA0A7300783AD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B9D36051EFA0A7300783AD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B9D36071EFA0A7300783AD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B9D360A1EFA0A7300783AD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B9D360C1EFA0A7300783AD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B9D36111EFA0A7300783AD3 /* SunLiveTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunLiveTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B9D36151EFA0A7300783AD3 /* SunLiveTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunLiveTVTests.swift; sourceTree = "<group>"; };
+		9B9D36171EFA0A7300783AD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B9D361C1EFA0A7300783AD3 /* SunLiveTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunLiveTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B9D36201EFA0A7300783AD3 /* SunLiveTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunLiveTVUITests.swift; sourceTree = "<group>"; };
+		9B9D36221EFA0A7300783AD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B9D36351EFA519500783AD3 /* TabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		9B9D36371EFA562700783AD3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9B9D36391EFA567900783AD3 /* StarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarViewController.swift; sourceTree = "<group>"; };
+		9B9D363B1EFA568C00783AD3 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		9B9D363D1EFA569D00783AD3 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B9D35FA1EFA0A7300783AD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B9D360E1EFA0A7300783AD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B9D36191EFA0A7300783AD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B9D35F41EFA0A7300783AD3 = {
+			isa = PBXGroup;
+			children = (
+				9B9D35FF1EFA0A7300783AD3 /* SunLiveTV */,
+				9B9D36141EFA0A7300783AD3 /* SunLiveTVTests */,
+				9B9D361F1EFA0A7300783AD3 /* SunLiveTVUITests */,
+				9B9D35FE1EFA0A7300783AD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B9D35FE1EFA0A7300783AD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B9D35FD1EFA0A7300783AD3 /* SunLiveTV.app */,
+				9B9D36111EFA0A7300783AD3 /* SunLiveTVTests.xctest */,
+				9B9D361C1EFA0A7300783AD3 /* SunLiveTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B9D35FF1EFA0A7300783AD3 /* SunLiveTV */ = {
+			isa = PBXGroup;
+			children = (
+				9B9D36001EFA0A7300783AD3 /* AppDelegate.swift */,
+				9B9D36341EFA0D1C00783AD3 /* Utils */,
+				9B9D362E1EFA0D1200783AD3 /* Classes */,
+				9B9D36021EFA0A7300783AD3 /* ViewController.swift */,
+				9B9D36041EFA0A7300783AD3 /* Main.storyboard */,
+				9B9D36071EFA0A7300783AD3 /* Assets.xcassets */,
+				9B9D36091EFA0A7300783AD3 /* LaunchScreen.storyboard */,
+				9B9D360C1EFA0A7300783AD3 /* Info.plist */,
+			);
+			path = SunLiveTV;
+			sourceTree = "<group>";
+		};
+		9B9D36141EFA0A7300783AD3 /* SunLiveTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B9D36151EFA0A7300783AD3 /* SunLiveTVTests.swift */,
+				9B9D36171EFA0A7300783AD3 /* Info.plist */,
+			);
+			path = SunLiveTVTests;
+			sourceTree = "<group>";
+		};
+		9B9D361F1EFA0A7300783AD3 /* SunLiveTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B9D36201EFA0A7300783AD3 /* SunLiveTVUITests.swift */,
+				9B9D36221EFA0A7300783AD3 /* Info.plist */,
+			);
+			path = SunLiveTVUITests;
+			sourceTree = "<group>";
+		};
+		9B9D362E1EFA0D1200783AD3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9B9D36301EFA0D1200783AD3 /* Home */,
+				9B9D36321EFA0D1200783AD3 /* Star */,
+				9B9D362F1EFA0D1200783AD3 /* Discover */,
+				9B9D36311EFA0D1200783AD3 /* Mine */,
+				9B9D36331EFA0D1200783AD3 /* Tabbar */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9B9D362F1EFA0D1200783AD3 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				9B9D363B1EFA568C00783AD3 /* DiscoverViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		9B9D36301EFA0D1200783AD3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9B9D36371EFA562700783AD3 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9B9D36311EFA0D1200783AD3 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				9B9D363D1EFA569D00783AD3 /* MineViewController.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		9B9D36321EFA0D1200783AD3 /* Star */ = {
+			isa = PBXGroup;
+			children = (
+				9B9D36391EFA567900783AD3 /* StarViewController.swift */,
+			);
+			path = Star;
+			sourceTree = "<group>";
+		};
+		9B9D36331EFA0D1200783AD3 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				9B9D36351EFA519500783AD3 /* TabbarViewController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		9B9D36341EFA0D1C00783AD3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B9D35FC1EFA0A7300783AD3 /* SunLiveTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B9D36251EFA0A7300783AD3 /* Build configuration list for PBXNativeTarget "SunLiveTV" */;
+			buildPhases = (
+				9B9D35F91EFA0A7300783AD3 /* Sources */,
+				9B9D35FA1EFA0A7300783AD3 /* Frameworks */,
+				9B9D35FB1EFA0A7300783AD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunLiveTV;
+			productName = SunLiveTV;
+			productReference = 9B9D35FD1EFA0A7300783AD3 /* SunLiveTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B9D36101EFA0A7300783AD3 /* SunLiveTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B9D36281EFA0A7300783AD3 /* Build configuration list for PBXNativeTarget "SunLiveTVTests" */;
+			buildPhases = (
+				9B9D360D1EFA0A7300783AD3 /* Sources */,
+				9B9D360E1EFA0A7300783AD3 /* Frameworks */,
+				9B9D360F1EFA0A7300783AD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B9D36131EFA0A7300783AD3 /* PBXTargetDependency */,
+			);
+			name = SunLiveTVTests;
+			productName = SunLiveTVTests;
+			productReference = 9B9D36111EFA0A7300783AD3 /* SunLiveTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B9D361B1EFA0A7300783AD3 /* SunLiveTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B9D362B1EFA0A7300783AD3 /* Build configuration list for PBXNativeTarget "SunLiveTVUITests" */;
+			buildPhases = (
+				9B9D36181EFA0A7300783AD3 /* Sources */,
+				9B9D36191EFA0A7300783AD3 /* Frameworks */,
+				9B9D361A1EFA0A7300783AD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B9D361E1EFA0A7300783AD3 /* PBXTargetDependency */,
+			);
+			name = SunLiveTVUITests;
+			productName = SunLiveTVUITests;
+			productReference = 9B9D361C1EFA0A7300783AD3 /* SunLiveTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B9D35F51EFA0A7300783AD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Lee;
+				TargetAttributes = {
+					9B9D35FC1EFA0A7300783AD3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = C3XMEK8JCX;
+						ProvisioningStyle = Automatic;
+					};
+					9B9D36101EFA0A7300783AD3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9B9D35FC1EFA0A7300783AD3;
+					};
+					9B9D361B1EFA0A7300783AD3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9B9D35FC1EFA0A7300783AD3;
+					};
+				};
+			};
+			buildConfigurationList = 9B9D35F81EFA0A7300783AD3 /* Build configuration list for PBXProject "SunLiveTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B9D35F41EFA0A7300783AD3;
+			productRefGroup = 9B9D35FE1EFA0A7300783AD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B9D35FC1EFA0A7300783AD3 /* SunLiveTV */,
+				9B9D36101EFA0A7300783AD3 /* SunLiveTVTests */,
+				9B9D361B1EFA0A7300783AD3 /* SunLiveTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B9D35FB1EFA0A7300783AD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B9D360B1EFA0A7300783AD3 /* LaunchScreen.storyboard in Resources */,
+				9B9D36081EFA0A7300783AD3 /* Assets.xcassets in Resources */,
+				9B9D36061EFA0A7300783AD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B9D360F1EFA0A7300783AD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B9D361A1EFA0A7300783AD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B9D35F91EFA0A7300783AD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B9D36031EFA0A7300783AD3 /* ViewController.swift in Sources */,
+				9B9D36011EFA0A7300783AD3 /* AppDelegate.swift in Sources */,
+				9B9D36361EFA519500783AD3 /* TabbarViewController.swift in Sources */,
+				9B9D363E1EFA569D00783AD3 /* MineViewController.swift in Sources */,
+				9B9D363C1EFA568C00783AD3 /* DiscoverViewController.swift in Sources */,
+				9B9D36381EFA562700783AD3 /* HomeViewController.swift in Sources */,
+				9B9D363A1EFA567900783AD3 /* StarViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B9D360D1EFA0A7300783AD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B9D36161EFA0A7300783AD3 /* SunLiveTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B9D36181EFA0A7300783AD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B9D36211EFA0A7300783AD3 /* SunLiveTVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B9D36131EFA0A7300783AD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B9D35FC1EFA0A7300783AD3 /* SunLiveTV */;
+			targetProxy = 9B9D36121EFA0A7300783AD3 /* PBXContainerItemProxy */;
+		};
+		9B9D361E1EFA0A7300783AD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B9D35FC1EFA0A7300783AD3 /* SunLiveTV */;
+			targetProxy = 9B9D361D1EFA0A7300783AD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B9D36041EFA0A7300783AD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B9D36051EFA0A7300783AD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B9D36091EFA0A7300783AD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B9D360A1EFA0A7300783AD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B9D36231EFA0A7300783AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B9D36241EFA0A7300783AD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B9D36261EFA0A7300783AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C3XMEK8JCX;
+				INFOPLIST_FILE = SunLiveTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lee.SunLiveTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9B9D36271EFA0A7300783AD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C3XMEK8JCX;
+				INFOPLIST_FILE = SunLiveTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lee.SunLiveTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9B9D36291EFA0A7300783AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SunLiveTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lee.SunLiveTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunLiveTV.app/SunLiveTV";
+			};
+			name = Debug;
+		};
+		9B9D362A1EFA0A7300783AD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SunLiveTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lee.SunLiveTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunLiveTV.app/SunLiveTV";
+			};
+			name = Release;
+		};
+		9B9D362C1EFA0A7300783AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SunLiveTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lee.SunLiveTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SunLiveTV;
+			};
+			name = Debug;
+		};
+		9B9D362D1EFA0A7300783AD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SunLiveTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lee.SunLiveTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SunLiveTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B9D35F81EFA0A7300783AD3 /* Build configuration list for PBXProject "SunLiveTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B9D36231EFA0A7300783AD3 /* Debug */,
+				9B9D36241EFA0A7300783AD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B9D36251EFA0A7300783AD3 /* Build configuration list for PBXNativeTarget "SunLiveTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B9D36261EFA0A7300783AD3 /* Debug */,
+				9B9D36271EFA0A7300783AD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B9D36281EFA0A7300783AD3 /* Build configuration list for PBXNativeTarget "SunLiveTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B9D36291EFA0A7300783AD3 /* Debug */,
+				9B9D362A1EFA0A7300783AD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B9D362B1EFA0A7300783AD3 /* Build configuration list for PBXNativeTarget "SunLiveTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B9D362C1EFA0A7300783AD3 /* Debug */,
+				9B9D362D1EFA0A7300783AD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B9D35F51EFA0A7300783AD3 /* Project object */;
+}
