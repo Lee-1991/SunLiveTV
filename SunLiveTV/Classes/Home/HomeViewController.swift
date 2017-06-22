@@ -18,6 +18,7 @@ class HomeViewController: UIViewController {
         
         let tipsLab = UILabel(frame: self.view.frame)
         tipsLab.text = "首页"
+        tipsLab.textAlignment = .center
         self.view.addSubview(tipsLab)
         
         

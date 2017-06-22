@@ -17,6 +17,7 @@ class StarViewController: UIViewController {
         
         let tipsLab = UILabel(frame: self.view.frame)
         tipsLab.text = "明星"
+        tipsLab.textAlignment = .center
         self.view.addSubview(tipsLab)
         // Do any additional setup after loading the view.
     }

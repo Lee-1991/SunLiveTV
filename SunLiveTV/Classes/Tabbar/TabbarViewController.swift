@@ -36,6 +36,7 @@ class TabbarViewController: UITabBarController {
     private func addChildViewController(_ childController: UIViewController,title: String,imageName:String) {
         
         childController.title = title
+        childController.navigationItem.title = title
         childController.tabBarItem.title = title
         childController.tabBarItem.image = UIImage(named:imageName+"_normal")
         childController.tabBarItem.selectedImage = UIImage(named:imageName+"_select")
